@@ -11,6 +11,7 @@
 1. Undestand the problem
 2. Explore concrete examples
 3. Break it down
+4. Look back and refactor
 
 ### Explore concrete examples
 

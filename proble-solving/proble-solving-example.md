@@ -63,7 +63,7 @@ function charCount(str) {
 ```javascript
 function charCount(str) {
   // 1. make an object to return at the end
-  var let = {};
+  let result = {};
   // 2. loop over string for each caharater
   for (let i = 0; i < str.length; i++) {
     let char = str[i].toLowerCase();
@@ -80,5 +80,41 @@ function charCount(str) {
 
   // 2.3 if char is something ekse (space, period, etc...) don't do anything
   // 3. return object at the end
+}
+```
+
+### Look back and refactor
+
+```javascript
+function charCount(str) {
+  // 1. make an object to return at the end
+  let result = {};
+  // 2. loop over string for each caharater
+  for (let char of str) {
+    char = char.toLowerCase();
+
+    // Here using charCodeAt is better than using regex for performance
+    if (isAlphaNumeric(char)) {
+      // 2.1 if the char is a number/letter AND a key in the object, add one to count
+      // 2.2 if the char is number/letter AND not in the object , add it and set value to 1
+      result[char] = ++result[char] || 1;
+    }
+  }
+  return result;
+
+  // 2.3 if char is something ekse (space, period, etc...) don't do anything
+  // 3. return object at the end
+
+  function isAlphaNumeric(char) {
+    const code = char.charCodeAt(0);
+    if (
+      !(code > 47 && code < 58) && // numbers
+      !(code > 64 && code < 91) && // capital letters
+      !(code > 96 && code < 123) // simple letters
+    ) {
+      return false;
+    }
+    return true;
+  }
 }
 ```
