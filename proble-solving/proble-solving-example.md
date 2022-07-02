@@ -3,19 +3,37 @@
 ### Explore concrete examples
 
 1. Start with simple examples
-   `charCount("aaa")` -> `{a:4}`
-   `charCount("hello")` -> `{h:1, e:1, l:2, o:1}`
+
+   ```javascript
+   charCount("aaa") -> {a:4}
+   charCount("hello") -> {h:1, e:1, l:2, o:1}
+
+   ```
 
 2. Progress to more complex examples
-   `charCount("my phone number is 154654654564")` ->
-   `charCount("Hello hi HOW are You")` ->
+
+   ```javascript
+   charCount("my phone number is 154654654564") ->
+   charCount("Hello hi HOW are You") ->
+
+   ```
 
 3. Explore examples with empty inputs
-   `charCount("")` ->
-   `charCount()` ->
+
+   ```javascript
+   charCount("") ->
+   charCount() ->
+
+   ```
 
 4. Explore examples with invalid inputs
-   `charCount(true)` ->
-   `charCount(null)` ->
-   `charCount(12345)` ->
-   `charCount(undefined)` ->
+
+```javascript
+  charCount(true) ->
+  charCount(null) ->
+  charCount(12345) ->
+  charCount(undefined) ->
+
+```
+
+### Break it down
