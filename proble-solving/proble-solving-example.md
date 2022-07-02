@@ -104,17 +104,17 @@ function charCount(str) {
 
   // 2.3 if char is something ekse (space, period, etc...) don't do anything
   // 3. return object at the end
+}
 
-  function isAlphaNumeric(char) {
-    const code = char.charCodeAt(0);
-    if (
-      !(code > 47 && code < 58) && // numbers
-      !(code > 64 && code < 91) && // capital letters
-      !(code > 96 && code < 123) // simple letters
-    ) {
-      return false;
-    }
-    return true;
+function isAlphaNumeric(char) {
+  const code = char.charCodeAt(0);
+  if (
+    !(code > 47 && code < 58) && // numbers
+    !(code > 64 && code < 91) && // capital letters
+    !(code > 96 && code < 123) // simple letters
+  ) {
+    return false;
   }
+  return true;
 }
 ```
