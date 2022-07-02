@@ -57,3 +57,28 @@ function charCount(str) {
   // 3. return object at the end
 }
 ```
+
+### Solve/ Simplify
+
+```javascript
+function charCount(str) {
+  // 1. make an object to return at the end
+  var let = {};
+  // 2. loop over string for each caharater
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i].toLowerCase();
+    // 2.1 if the char is a number/letter AND a key in the object, add one to count
+    if (result[char] > 0) {
+      result[char]++;
+
+      // 2.2 if the char is number/letter AND not in the object , add it and set value to 1
+    } else {
+      result[char] = 1;
+    }
+  }
+  return result;
+
+  // 2.3 if char is something ekse (space, period, etc...) don't do anything
+  // 3. return object at the end
+}
+```
