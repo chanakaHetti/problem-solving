@@ -71,10 +71,10 @@ and second example's `big o notation` is `O(n)`
 
 ## Big O Notations examples
 
-O(2n) --> O(n)
-O(500) --> O(1)
-O(13n²) --> O(n²)
-O(5n³) --> O(n³)
-O(n + 10) --> O(n)
-O(1000n + 50) --> O(n)
-O(3n² + 5n + 8) --> O(n²)
+`O(2n) --> O(n)` <br />
+`O(500) --> O(1)` <br />
+`O(13n²) --> O(n²)` <br />
+`O(5n³) --> O(n³)` <br />
+`O(n + 10) --> O(n)` <br />
+`O(1000n + 50) --> O(n)` <br />
+`O(3n² + 5n + 8) --> O(n²)` <br />
