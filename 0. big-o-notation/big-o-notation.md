@@ -1,4 +1,4 @@
-# PROBLEM SOLVING
+# Big O Notation
 
 Big O Notation is a fundamental tool used to find out the time complexity of algorithms. Big O Notation allows programmers to classify algorithms depending on how their run time or space requirements vary as the input size varies. Examples: Runtime Complexity for Linear Search – O(n)
 
@@ -65,3 +65,16 @@ This returns `Time elapsed 0.0000000000078... seconds`
 
 
 So `solution one` is faster.
+
+So first example's `big o notation` is `O(1)`
+and second example's `big o notation` is `O(n)`
+
+## Big O Notations examples
+
+O(2n) --> O(n)
+O(500) --> O(1)
+O(13n²) --> O(n²)
+O(5n³) --> O(n³)
+O(n + 10) --> O(n)
+O(1000n + 50) --> O(n)
+O(3n² + 5n + 8) --> O(n²)
