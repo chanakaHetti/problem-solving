@@ -2,6 +2,9 @@
 
 Big O Notation is a fundamental tool used to find out the time complexity of algorithms. Big O Notation allows programmers to classify algorithms depending on how their run time or space requirements vary as the input size varies. Examples: Runtime Complexity for Linear Search – O(n)
 
+<hr />
+
+## Time Complexity
 
 #### Example 01
 Suppose we want to write a function that calculate the sum of all numbers from 1 up to (and including) some number n.
@@ -69,7 +72,7 @@ So `solution one` is faster.
 So first example's `big o notation` is `O(1)`
 and second example's `big o notation` is `O(n)`
 
-## Big O Notations examples
+### Big O Notations examples
 
 `O(2n) --> O(n)` <br />
 `O(500) --> O(1)` <br />
@@ -79,7 +82,16 @@ and second example's `big o notation` is `O(n)`
 `O(1000n + 50) --> O(n)` <br />
 `O(3n² + 5n + 8) --> O(n²)` <br />
 
-## Big O Notations Shorthands
+### Big O Notations Shorthands
 1. Analyzing complexity with big O can get complicated
 2. There are several rules of thumb that can help
 3. These rules won't ALWAYS work, but are a helpful starting point
+
+<hr />
+
+## Space Complexity
+
+### Big O Notations Shorthands
+1. Most primitives (booleans, numbers, undefined, null) are constant space
+2. String require O(n) space (where n is the string length)
+3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
