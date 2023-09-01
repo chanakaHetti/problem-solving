@@ -78,3 +78,8 @@ and second example's `big o notation` is `O(n)`
 `O(n + 10) --> O(n)` <br />
 `O(1000n + 50) --> O(n)` <br />
 `O(3n² + 5n + 8) --> O(n²)` <br />
+
+## Big O Notations Shorthands
+1. Analyzing complexity with big O can get complicated
+2. There are several rules of thumb that can help
+3. These rules won't ALWAYS work, but are a helpful starting point
