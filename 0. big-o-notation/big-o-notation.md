@@ -114,3 +114,13 @@ and second example's `big o notation` is `O(n)`
 3. Searching - O(N)
 4. Access - O(1)
 
+### Big O Notation of `Array Operations`
+1. push - O(1)
+2. pop - O(1)
+3. shift - O(N)
+4. unshift - O(N)
+5. concat - O(N)
+6. slice - O(N)
+7. splice - O(N)
+8. sort - O(N * log N)
+9. forEach/ map/ filter/ reduce etc... - O(N)
