@@ -95,3 +95,22 @@ and second example's `big o notation` is `O(n)`
 1. Most primitives (booleans, numbers, undefined, null) are constant space
 2. String require O(n) space (where n is the string length)
 3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
+
+<hr />
+
+## Big O Notation of `Objects`
+1. Insertion - O(1)
+2. Removal - O(1)
+3. Searching - O(N)
+4. Access - O(1)
+
+## Big O Notation of `Arrays`
+1. Insertion - Depends on the location...
+    1. Insert to the end of the array - O(1)
+    2. Insert to the start of the array - O(N)
+2. Removal - Depends on the location...
+    1. Removal from the end of the array - O(1)
+    2. Removal from the start of the array - O(N)
+3. Searching - O(N)
+4. Access - O(1)
+
