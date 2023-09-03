@@ -114,7 +114,7 @@ and second example's `big o notation` is `O(n)`
 3. Searching - O(N)
 4. Access - O(1)
 
-### Big O Notation of `Array Operations`
+###Big O Notation of `Array Operations`
 1. push - O(1)
 2. pop - O(1)
 3. shift - O(N)
